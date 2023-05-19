@@ -45,6 +45,7 @@ const getWeather=  ()=>{
       const humidity = document.querySelector(
         ".weather-details .humidity span"
       );
+      console.log()
       const wind = document.querySelector(".weather-details .wind span");
       switch (json.weather[0].main) {
         case "Clear":
