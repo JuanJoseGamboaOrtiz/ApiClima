@@ -50,7 +50,7 @@ const getWeather=  ()=>{
         case "Clear":
           image.src = "img/clear.png";
           break;
-        case "Rain ":
+        case "Rain":
           image.src = "img/rain.png";
           break;
         case "Snow":
